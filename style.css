@@ -1,0 +1,77 @@
+.container{
+    height: 100vh;
+    width: 100%;
+    background: url(./Assests/BACKGROUND.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle{
+    
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    border: 2px solid pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+    white-space: nowrap;
+
+    
+}
+h1{
+    font-size: 50px;
+    font-weight: 200;
+    color: darkgreen;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    top: -41px;
+    right: -50px;
+    
+    
+}
+.image{
+    position: relative;
+    top: -201px;
+    right: -367px;
+    bottom: 66px;
+    height: 50px;
+    width: 50px;
+    z-index: 1;
+
+
+}
+p{
+    color: green;
+    text-align: center;
+   right: -267px;
+    position: relative;
+    top: -114px;
+    
+    /* overflow: hidden;
+    text-overflow: ellipsis; */
+}
+.p1{
+    color: green;
+    position: relative;
+    /* font-size: 100px; */
+    /* font-weight: 100; */
+    text-align: center;
+    display: inline-block;
+    top: 53px;
+    right: 143px;
+    
+}
+.p2{
+    color: green;
+    position: relative;
+    /* display: inline-block; */
+    /* font-size: 100px; */
+    font-weight: 100;
+    text-align: center;
+    top: 158px;
+    right: 306px;
+    
+}
